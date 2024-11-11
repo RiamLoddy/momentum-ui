@@ -13,6 +13,8 @@ import { html, LitElement, property, PropertyValues, query } from "lit-element";
 import { AccordionItem } from "./AccordionItem";
 import styles from "./scss/module.scss";
 
+// TEST COMMIT - NO MERGE
+
 export namespace Accordion {
   @customElementWithCheck("md-accordion")
   export class ELEMENT extends SlottedMixin(LitElement) {
